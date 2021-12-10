@@ -1,0 +1,20 @@
+{
+  "name": "crypto_bite_coin_listener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-ethers-dev": "cross-env NODE_ENV=development node ethers/index.js",
+    "start-ethers-prod": "cross-env NODE_ENV=production node ethers/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
